@@ -1,8 +1,8 @@
 # Anti-Bot Guardian
 
-Stop spam bots from signing up in your forums with Anti-Bot Guardian, a domain-specific captcha system that is tailored to your own unique content.
+Stop spam bots from signing up to your forums using Anti-Bot Guardian, a domain-specific captcha system that is tailored to your own unique content.
 
-Anti-Bot Guardian generates unique visual challenges based on custom icons you provide. It's easy to setup and requires no external APIs. It's compatible with [FluxBB](https://fluxbb.org) and can easily be adapted to other PHP software.
+Anti-Bot Guardian generates unique visual challenges based on icons you provide. It's easy to setup and requires no external services. It's compatible with [FluxBB](https://fluxbb.org) and can easily be adapted to other PHP-based software.
 
 Anti-Bot Guardian is developed by [Alexandre Martins](https://github.com/alemart), a computer scientist from Brazil. It's released under the [MPL 2.0](LICENSE) license.
 
@@ -14,7 +14,7 @@ Anti-Bot Guardian is developed by [Alexandre Martins](https://github.com/alemart
 ### Prerequisites
 
 1. You have access to your web hosting and can upload files.
-2. Your PHP build has [GD Image Library support](https://www.php.net/manual/en/book.image.php). Upload and open file *gd_info.php* in order to test it. Remove the file afterwards.
+2. Your PHP build has [GD Image Library support](https://www.php.net/manual/en/book.image.php). Upload and open file *gd_info.php* in order to test this. Remove the file afterwards.
 3. FluxBB 1.5.8 or later.
 
 ### Basic setup
@@ -56,4 +56,4 @@ Anti-Bot Guardian ships public domain icons obtained from the [Tango Desktop Pro
 
 ## Using with other software
 
-Anti-Bot Guardian can be used with any PHP software. While originally designed for FluxBB, the only file that is FluxBB-specific is *addons/antibot.php*. This file installs hooks on the registration page. Those hooks call the underlying system, which is platform-agnostic. Therefore, it's easy to port it to other software.
+Anti-Bot Guardian can be used with any PHP-based software. While originally designed for FluxBB, the only file that is FluxBB-specific is *addons/antibot.php*. This file installs hooks on the registration page. Those hooks call the underlying system, which is platform-agnostic. Therefore, it's easy to port it to other software.
