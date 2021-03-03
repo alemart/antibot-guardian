@@ -2,7 +2,7 @@
 
 $lang_antibot = array(
 	"question" => "Tell me all numbers that match %s:",
-	"info" => "If there are more input fields than matching numbers, leave the extra input fields blank.",
+	"info" => "If there are more input fields than matching numbers, leave the extra input fields blank. Don't worry about the order.",
 	"footer" => "",
 
 	"title" => "Are you human?",
